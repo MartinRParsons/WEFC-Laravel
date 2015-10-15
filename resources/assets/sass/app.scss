@@ -1,0 +1,77 @@
+// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "normalize";
+@import "colours";
+
+
+.spacer{
+	height: 75vh;
+}
+
+body {
+	background-color:  rgba($lblue, 0.25);
+	font-family: "jaf-bernina-sans" "sans-serif";
+}
+
+.adminbar {
+	background-color: $green;
+	display: flex;
+	justify-content: center;
+}
+
+.container{
+	background-color:  rgba(white, 0.4);
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.nav-banner {
+	align: centre;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+}
+
+.nav-link{
+	flex-grow: 1;
+	color: $orange;
+	text-align: center;
+	padding: 10 0px;
+	background-color: $lblue;
+	border-top: solid 10px $blue;
+	text-decoration: none;
+	font-size: 24px;
+	font-family: "jaf-bernina-sans" "sans-serif";
+	font-weight: 800;
+
+
+	&:hover{
+		background-color: $orange;
+		color: $lblue;
+	}
+}
+.footer-container{
+	display: flex;
+}
+
+.footer-colours{
+	padding: 0;
+	height: 20vh;
+	flex-grow: 1 ;
+}
+.bg-magenta{
+	background-color: $magenta;
+}
+.bg-blue{
+	background-color: $blue;
+}
+.bg-lblue{
+	background-color: $lblue;
+}
+.bg-green{
+	background-color: $green;
+}
+.bg-orange{
+	background-color: $orange;
+}
