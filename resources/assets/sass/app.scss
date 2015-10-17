@@ -92,6 +92,11 @@ body {
 	height: 20vh;
 	flex-grow: 1 ;
 	border-top: solid 5px;
+
+	@media screen and (max-width: 320px){
+		height: 10vh;
+	}
+
 }
 .bg-magenta{
 	background-color: rgba($magenta,0.5);

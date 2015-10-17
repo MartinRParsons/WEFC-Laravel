@@ -437,6 +437,9 @@ body {
   -ms-flex-positive: 1;
   flex-grow: 1;
   border-top: solid 5px; }
+  @media screen and (max-width: 320px) {
+    .footer-colours {
+      height: 10vh; } }
 
 .bg-magenta {
   background-color: rgba(230, 0, 126, 0.5);
