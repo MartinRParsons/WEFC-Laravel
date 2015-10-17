@@ -357,7 +357,7 @@ th {
 
 body {
   background-color: rgba(0, 159, 227, 0.25);
-  font-family: "jaf-bernina-sans" "sans-serif"; }
+  font-family: "jaf-bernino-sans" "sans-serif"; }
 
 .adminbar {
   background-color: #009640;
@@ -384,7 +384,7 @@ body {
 .banner-text {
   display: inline-block;
   font-size: 50px;
-  font-family: "jaf-bernina-sans" "sans-serif";
+  font-family: "jaf-bernino-sans" "sans-serif";
   font-weight: 800;
   color: #009FE3;
   width: calc(70% - 50px);
