@@ -376,6 +376,31 @@ body {
 .nav-banner {
   align: centre; }
 
+.header-logo {
+  width: 10%;
+  padding: 10px;
+  display: inline-block; }
+
+.banner-text {
+  display: inline-block;
+  font-size: 50px;
+  font-family: "jaf-bernina-sans" "sans-serif";
+  font-weight: 800;
+  color: #009FE3;
+  width: calc(70% - 50px);
+  word-wrap: normal;
+  line-height: 1.3;
+  padding-bottom: 5px;
+  vertical-align: text-bottom;
+  text-align: center;
+  margin-left: 5%; }
+
+.FIEC-logo {
+  width: 20%;
+  padding: 10px;
+  display: inline-block;
+  margin-left: -5%; }
+
 .navbar {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -411,21 +436,27 @@ body {
   height: 20vh;
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
-  flex-grow: 1; }
+  flex-grow: 1;
+  border-top: solid 5px; }
 
 .bg-magenta {
-  background-color: #E6007E; }
+  background-color: rgba(230, 0, 126, 0.5);
+  border-top-color: #E6007E; }
 
 .bg-blue {
-  background-color: #35398E; }
+  background-color: rgba(53, 57, 142, 0.5);
+  border-top-color: rgba(53, 57, 142, 0.5); }
 
 .bg-lblue {
-  background-color: #009FE3; }
+  background-color: rgba(0, 159, 227, 0.5);
+  border-top-color: #009FE3; }
 
 .bg-green {
-  background-color: #009640; }
+  background-color: rgba(0, 150, 64, 0.5);
+  border-top-color: #009640; }
 
 .bg-orange {
-  background-color: #F9B233; }
+  background-color: rgba(249, 178, 51, 0.5);
+  border-top-color: #F9B233; }
 
 /*# sourceMappingURL=app.css.map */

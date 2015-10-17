@@ -28,6 +28,39 @@ body {
 	align: centre;
 }
 
+.header-banner {
+//display: flex;
+
+}
+
+.header-logo{
+	width: 10%;
+	padding: 10px;
+	display: inline-block;
+}
+
+.banner-text{
+	display: inline-block;
+	font-size: 50px;
+	font-family: "jaf-bernina-sans" "sans-serif";
+	font-weight: 800;
+	color: $lblue;
+	width: calc(70% - 50px);
+	word-wrap: normal;
+	line-height: 1.3;
+	padding-bottom: 5px;
+	vertical-align: text-bottom;
+	text-align: center;
+	margin-left: 5%;
+}
+
+.FIEC-logo{
+	width: 20%;
+	padding: 10px;
+	display: inline-block;
+	margin-left: -5%;
+}
+
 .navbar {
 	display: flex;
 	align-items: center;
@@ -59,19 +92,25 @@ body {
 	padding: 0;
 	height: 20vh;
 	flex-grow: 1 ;
+	border-top: solid 5px;
 }
 .bg-magenta{
-	background-color: $magenta;
+	background-color: rgba($magenta,0.5);
+	border-top-color: $magenta;
 }
 .bg-blue{
-	background-color: $blue;
+	background-color: rgba($blue,0.5);
+	border-top-color: rgba($blue,0.5);
 }
 .bg-lblue{
-	background-color: $lblue;
+	background-color: rgba($lblue,0.5);
+	border-top-color: $lblue;
 }
 .bg-green{
-	background-color: $green;
+	background-color: rgba($green,0.5);
+	border-top-color: $green;
 }
 .bg-orange{
-	background-color: $orange;
+	background-color: rgba($orange,0.5);
+	border-top-color: $orange;
 }
