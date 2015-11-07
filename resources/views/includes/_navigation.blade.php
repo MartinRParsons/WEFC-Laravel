@@ -7,6 +7,6 @@
 	<a href = "" class="nav-link">Home</a>
 	<a href="" class="nav-link">About</a>
 	<a href="" class="nav-link">Meetings</a>
-	<a href="" class="nav-link">Clubs</a>
+	<a href="/Friday" class="nav-link">Clubs</a>
 	<a href="" class="nav-link">Contact Us</a>
 </div>

@@ -394,6 +394,10 @@ body {
   vertical-align: text-bottom;
   text-align: center;
   margin-left: 5%; }
+  @media (max-width: 320px) {
+    .banner-text {
+      font-size: 16px;
+      padding-bottom: 10px; } }
 
 .FIEC-logo {
   width: 20%;
@@ -419,8 +423,11 @@ body {
   background-color: #009FE3;
   border-top: solid 10px #35398E;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 800; }
+  @media (max-width: 320px) {
+    .nav-link {
+      font-size: 10px; } }
   .nav-link:hover {
     background-color: #F9B233;
     color: #009FE3; }
