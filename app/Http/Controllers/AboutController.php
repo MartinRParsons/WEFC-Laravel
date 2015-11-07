@@ -12,3 +12,11 @@ class AboutController extends Controller
         return view('home');
     }
 }
+
+class AboutController extends Controller
+{
+    public function getFridayClub()
+    {
+        return view('FridayClub');
+    }
+}
