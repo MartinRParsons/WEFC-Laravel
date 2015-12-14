@@ -352,12 +352,15 @@ td,
 th {
   padding: 0; }
 
+\:root {
+  font-size: 16px;
+  font-family: "jaf-bernino-sans" "sans-serif"; }
+
 .spacer {
   height: 75vh; }
 
 body {
-  background-color: rgba(0, 159, 227, 0.25);
-  font-family: "jaf-bernino-sans" "sans-serif"; }
+  background-color: rgba(0, 159, 227, 0.25); }
 
 .adminbar {
   background-color: #009640;
@@ -419,7 +422,7 @@ body {
   flex-grow: 1;
   color: #F9B233;
   text-align: center;
-  padding: 10 0px;
+  padding: 10px 0;
   background-color: #009FE3;
   border-top: solid 10px #35398E;
   text-decoration: none;
