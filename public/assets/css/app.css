@@ -353,7 +353,9 @@ th {
   padding: 0; }
 
 \:root {
-  font-size: 16px;
+  font-size: 16px; }
+
+html {
   font-family: "jaf-bernino-sans" "sans-serif"; }
 
 .spacer {
@@ -387,7 +389,6 @@ body {
 .banner-text {
   display: inline-block;
   font-size: 50px;
-  font-family: "jaf-bernino-sans" "sans-serif";
   font-weight: 800;
   color: #009FE3;
   width: calc(70% - 50px);
