@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>WEFC - @yield('title')</title>
@@ -11,7 +12,9 @@
        @include('includes/admin')
          <div class="container">
             @include('includes/_navigation')
-            @yield('content')
+            <div class = "content-containter">
+                @yield('content')
+            </div>
             @include('includes/_footer')
         </div>
     </body>
