@@ -12,8 +12,18 @@ class AboutController extends Controller
         return view('home');
     }
 
+    public function getAbout()
+    {
+        return view('About');
+    }
+
     public function getFridayClub()
     {
         return view('FridayClub');
+    }
+
+    public function getMeetings()
+    {
+        return view('Meetings');
     }
 }
