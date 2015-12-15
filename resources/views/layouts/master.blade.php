@@ -12,7 +12,7 @@
        @include('includes/admin')
          <div class="container">
             @include('includes/_navigation')
-            <div class = "content-containter">
+            <div class = "content-container">
                 @yield('content')
             </div>
             @include('includes/_footer')

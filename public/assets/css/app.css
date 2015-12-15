@@ -352,11 +352,35 @@ td,
 th {
   padding: 0; }
 
-\:root {
+:root {
   font-size: 16px; }
+  @media (max-width: 321px) {
+    :root {
+      font-size: 6px; } }
 
 html {
   font-family: "jaf-bernino-sans" "sans-serif"; }
+
+h1 {
+  font-size: 2rem; }
+
+p {
+  margin: 0.5em 0; }
+
+.banner-text {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #009FE3;
+  word-wrap: normal;
+  line-height: 1.3;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  text-align: center;
+  -webkit-flex-basis: 60%;
+  -ms-flex-preferred-size: 60%;
+  flex-basis: 60%;
+  max-width: 60%; }
 
 .spacer {
   height: 75vh; }
@@ -373,6 +397,10 @@ body {
   -ms-flex-pack: center;
   justify-content: center; }
 
+.content-container {
+  margin: 0 1.25rem;
+  min-height: 75vh; }
+
 .container {
   background-color: rgba(255, 255, 255, 0.4);
   max-width: 960px;
@@ -381,33 +409,35 @@ body {
 .nav-banner {
   align: centre; }
 
-.header-logo {
-  width: 10%;
-  padding: 10px;
-  display: inline-block; }
+.header-banner {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
 
-.banner-text {
-  display: inline-block;
-  font-size: 50px;
-  font-weight: 800;
-  color: #009FE3;
-  width: calc(70% - 50px);
-  word-wrap: normal;
-  line-height: 1.3;
-  padding-bottom: 5px;
-  vertical-align: text-bottom;
-  text-align: center;
-  margin-left: 5%; }
-  @media (max-width: 320px) {
-    .banner-text {
-      font-size: 16px;
-      padding-bottom: 10px; } }
+.header-logo {
+  -webkit-flex-basis: 15%;
+  -ms-flex-preferred-size: 15%;
+  flex-basis: 15%;
+  padding: 0.5rem 0; }
+  .header-logo img {
+    max-width: 100%; }
 
 .FIEC-logo {
-  width: 20%;
-  padding: 10px;
-  display: inline-block;
-  margin-left: -5%; }
+  -webkit-flex-basis: 15%;
+  -ms-flex-preferred-size: 15%;
+  flex-basis: 15%;
+  padding: 0.5rem 0;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start; }
+  .FIEC-logo img {
+    max-width: 100%; }
 
 .navbar {
   display: -webkit-flex;
@@ -423,15 +453,12 @@ body {
   flex-grow: 1;
   color: #F9B233;
   text-align: center;
-  padding: 10px 0;
+  padding: .5em 0;
   background-color: #009FE3;
-  border-top: solid 10px #35398E;
+  border-top: solid 0.5em #35398E;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 800; }
-  @media (max-width: 320px) {
-    .nav-link {
-      font-size: 10px; } }
   .nav-link:hover {
     background-color: #F9B233;
     color: #009FE3; }
@@ -443,14 +470,11 @@ body {
 
 .footer-colours {
   padding: 0;
-  height: 20vh;
+  height: 8rem;
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
-  border-top: solid 5px; }
-  @media (max-width: 320px) {
-    .footer-colours {
-      height: 10vh; } }
+  border-top: solid 0.25em; }
 
 .bg-magenta {
   background-color: rgba(230, 0, 126, 0.5);
