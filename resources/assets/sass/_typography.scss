@@ -1,16 +1,33 @@
 :root{
   font-size:16px;
-  @media(max-width: 321px){
+
+  @media(max-width: 750px){
+    font-size: 10px;
+  }
+
+  @media(max-width: 470px){
+    font-size: 8px;
+  }
+
+  @media(max-width: 375px){
     font-size: 6px;
   }
+
+
+
 }
 
 html{
   font-family: "jaf-bernino-sans" "sans-serif";
 }
 
+h1,h2,h3,h4,h5,h6{
+  color: $green;
+}
+
 h1{
   font-size: 2rem;
+
 }
 
 h2{
@@ -38,7 +55,9 @@ p{
 }
 
 a{
-
+  color: $magenta;
+  text-decoration: none;
+  font-weight: 800;
 }
 
 .banner-text{
@@ -52,4 +71,8 @@ a{
 	text-align: center;
   flex-basis: 60%;
   max-width: 60%;
+}
+
+ul{
+  list-style:none;
 }

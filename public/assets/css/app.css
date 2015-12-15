@@ -354,18 +354,32 @@ th {
 
 :root {
   font-size: 16px; }
-  @media (max-width: 321px) {
+  @media (max-width: 750px) {
+    :root {
+      font-size: 10px; } }
+  @media (max-width: 470px) {
+    :root {
+      font-size: 8px; } }
+  @media (max-width: 375px) {
     :root {
       font-size: 6px; } }
 
 html {
   font-family: "jaf-bernino-sans" "sans-serif"; }
 
+h1, h2, h3, h4, h5, h6 {
+  color: #009640; }
+
 h1 {
   font-size: 2rem; }
 
 p {
   margin: 0.5em 0; }
+
+a {
+  color: #E6007E;
+  text-decoration: none;
+  font-weight: 800; }
 
 .banner-text {
   font-size: 3rem;
@@ -381,6 +395,9 @@ p {
   -ms-flex-preferred-size: 60%;
   flex-basis: 60%;
   max-width: 60%; }
+
+ul {
+  list-style: none; }
 
 .spacer {
   height: 75vh; }
@@ -455,7 +472,7 @@ body {
   text-align: center;
   padding: .5em 0;
   background-color: #009FE3;
-  border-top: solid 0.5em #35398E;
+  border-top: solid 0.25em #35398E;
   text-decoration: none;
   font-size: 1.25rem;
   font-weight: 800; }

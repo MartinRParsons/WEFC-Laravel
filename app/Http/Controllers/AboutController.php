@@ -26,4 +26,9 @@ class AboutController extends Controller
     {
         return view('Meetings');
     }
+
+    public function getContact()
+    {
+        return view('Contact');
+    }
 }
