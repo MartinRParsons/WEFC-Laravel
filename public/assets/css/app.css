@@ -373,6 +373,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 2rem; }
 
+h3 {
+  color: #009640; }
+
 p {
   margin: 0.5em 0; }
 
