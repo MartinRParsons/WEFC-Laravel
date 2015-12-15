@@ -19,7 +19,7 @@
 </p>
 </p>
 
-<h2>THE OPENING AND RE-DEDICATION SERVICE </h2>
+<h2>The opening and re-dedication service</h2>
 <p>
   This took place on Thursday November 22nd 1934. The Church was literally packed full with grateful souls, whose praises caused the place to ring again with "To God be the glory, great things He hath done."</p>
 <p>
