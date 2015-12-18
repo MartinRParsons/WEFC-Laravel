@@ -31,4 +31,8 @@ class AboutController extends Controller
     {
         return view('Contact');
     }
-}
+    public function getTypography()
+    {
+        return view('Typography');
+    }
+  }

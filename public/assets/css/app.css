@@ -368,21 +368,40 @@ html {
   font-family: "jaf-bernino-sans" "sans-serif"; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #35398E; }
+  margin: .75em 0; }
 
 h1 {
-  font-size: 2rem; }
+  font-size: 2rem;
+  color: #F9B233; }
+
+h2 {
+  font-size: 1.75rem;
+  color: #35398E; }
 
 h3 {
+  font-size: 1.5rem;
   color: #009640; }
 
+h4 {
+  font-size: 1.35rem;
+  color: #009FE3; }
+
+h5 {
+  font-size: 1.25rem; }
+
+h6 {
+  font-size: 1.15rem; }
+
 p {
-  margin: 0.5em 0; }
+  margin: 0.5em 0;
+  font-size: 1 rem; }
 
 a {
   color: #E6007E;
   text-decoration: none;
   font-weight: 800; }
+  a:hover {
+    color: #F9B233; }
 
 .banner-text {
   font-size: 3rem;
@@ -403,7 +422,7 @@ ul {
   list-style: none; }
 
 .spacer {
-  height: 75vh; }
+  min-height: 75vh; }
 
 body {
   background-color: rgba(0, 159, 227, 0.25); }

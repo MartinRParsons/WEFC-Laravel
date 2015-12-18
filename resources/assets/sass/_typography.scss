@@ -23,42 +23,50 @@ html{
 
 h1,h2,h3,h4,h5,h6{
 //  color: $green;
-  color: $blue;
+  margin: .75em 0;
 }
 
 h1{
   font-size: 2rem;
-
+  color: $orange;
 }
 
 h2{
-
-}
+  font-size: 1.75rem;
+  color: $blue;}
 
 h3{
+  font-size: 1.5rem;
   color: $green;
 }
 
 h4{
-
+  font-size: 1.35rem;
+  color:$lblue;
 }
 
 h5{
-
+  font-size: 1.25rem;
 }
 
 h6{
-
+  font-size: 1.15rem;
 }
 
 p{
  margin: 0.5em 0;
+ font-size: 1 rem;
 }
 
 a{
   color: $magenta;
   text-decoration: none;
   font-weight: 800;
+
+  &:hover{
+    color: $orange
+  }
+
 }
 
 .banner-text{
