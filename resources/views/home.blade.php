@@ -9,7 +9,7 @@
 @section('content')
 
 
-	<div>
+	<div class="spacer">
 		<h1>This is my home page</h1>
 	</div>
 @endsection
