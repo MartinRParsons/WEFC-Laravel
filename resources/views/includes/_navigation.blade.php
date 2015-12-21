@@ -11,8 +11,8 @@
 </div>
 <div class="navbar">
 	<a href = "/" class="nav-link">Home</a>
-	<a href="/About" class="nav-link">About</a>
-	<a href="Meetings" class="nav-link">Meetings</a>
-	<a href="/Friday" class="nav-link">Clubs</a>
-	<a href="/Contact" class="nav-link">Contact Us</a>
+	<a href="/about" class="nav-link">About</a>
+	<a href="meetings" class="nav-link">Meetings</a>
+	<a href="/friday" class="nav-link">Clubs</a>
+	<a href="/contact" class="nav-link">Contact Us</a>
 </div>
