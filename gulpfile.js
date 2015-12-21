@@ -16,3 +16,7 @@ elixir(function(mix) {
         'app.scss'
     ], 'public/assets/css');
 });
+
+elixir(function(mix) {
+    mix.version('assets/css/app.css');
+});

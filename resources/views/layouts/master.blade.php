@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>WEFC - @yield('title')</title>
-        {!! Html::style('/assets/css/app.css') !!}
+        <link rel="stylesheet" href="{{ elixir('assets/css/app.css') }}">
         <script src="https://use.typekit.net/yls7imy.js"></script>
         <script>try{Typekit.load({ async: true });}catch(e){}</script>
         @include('includes/_favicons')
