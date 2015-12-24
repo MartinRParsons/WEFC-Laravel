@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'About')
+@section('title', 'Meetings')
 
 @section('sidebar')
 

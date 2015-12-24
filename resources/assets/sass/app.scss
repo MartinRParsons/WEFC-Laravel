@@ -3,6 +3,7 @@
 //@import "modules/toast";
 @import "colours";
 @import "typography";
+@import "forms";
 
 
 .spacer{
@@ -15,8 +16,18 @@ body {
 
 .adminbar {
 	background-color: $green;
+	padding: 0 0.5rem;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
+
+
+	a {
+		color: $orange;
+
+		&:hover{
+			color: $blue;
+		}
+	}
 }
 
 .content-container{
@@ -36,13 +47,13 @@ body {
 .header-banner {
  display:flex;
  align-items: flex-end;
- justify-content: space-around;
+ justify-content: space-between;
 // min-height: 12vh;
 }
 
 .header-logo {
 	flex-basis: 15%;
-	padding: 0.5rem 0;
+	padding: 0.5rem;
  img{
 	 max-width: 100%;
  }
@@ -50,7 +61,7 @@ body {
 
 .FIEC-logo{
 	flex-basis: 15%;
-	padding: 0.5rem 0;
+	padding: 0.5rem;
 	align-self: flex-start;
   img{
  	 max-width: 100%;

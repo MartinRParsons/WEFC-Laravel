@@ -424,6 +424,36 @@ a {
 ul {
   list-style: none; }
 
+.form-container {
+  border: 1px solid #009FE3;
+  border-radius: 0.5rem;
+  padding: calc(1.25rem - 1px);
+  width: calc(50rem -10px);
+  font-family: "jaf-bernino-sans", "sans-serif";
+  font-size: 1rem; }
+  .form-container .form-field {
+    min-width: 15em; }
+  .form-container label {
+    color: #35398E;
+    margin: 0.25em;
+    display: inline-block;
+    min-width: 9em; }
+  .form-container input {
+    color: red;
+    margin: 0.25em;
+    display: inline-block; }
+  .form-container .button {
+    background-color: #009FE3;
+    color: #F9B233;
+    border: none;
+    border-radius: 0.25em;
+    padding: 0.25em 1em;
+    margin: 1em 0;
+    font-weight: 800; }
+    .form-container .button:hover {
+      color: #009FE3;
+      background-color: #F9B233; }
+
 .spacer {
   min-height: 75vh; }
 
@@ -432,12 +462,17 @@ body {
 
 .adminbar {
   background-color: #009640;
+  padding: 0 0.5rem;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center; }
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
+  .adminbar a {
+    color: #F9B233; }
+    .adminbar a:hover {
+      color: #35398E; }
 
 .content-container {
   margin: 0 1.25rem;
@@ -458,15 +493,15 @@ body {
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: distribute;
-  justify-content: space-around; }
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
 
 .header-logo {
   -webkit-flex-basis: 15%;
   -ms-flex-preferred-size: 15%;
   flex-basis: 15%;
-  padding: 0.5rem 0; }
+  padding: 0.5rem; }
   .header-logo img {
     max-width: 100%; }
 
@@ -474,7 +509,7 @@ body {
   -webkit-flex-basis: 15%;
   -ms-flex-preferred-size: 15%;
   flex-basis: 15%;
-  padding: 0.5rem 0;
+  padding: 0.5rem;
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start; }

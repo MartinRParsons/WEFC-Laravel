@@ -1,0 +1,40 @@
+.form-container{
+  border: 1px solid $lblue;
+  border-radius: 0.5rem;
+  padding: calc(1.25rem - 1px);
+  width: calc(50rem -10px);
+  font-family: "jaf-bernino-sans", "sans-serif";
+  font-size: 1rem;
+
+  .form-field{
+    min-width: 15em;
+  }
+
+  label{
+    color: $blue;
+    margin: 0.25em;
+    display: inline-block;
+    min-width: 9em;
+  }
+
+  input{
+    color:red;
+    margin: 0.25em;
+    display: inline-block;
+  }
+
+  .button {
+    background-color: $lblue;
+    color: $orange;
+    border: none;
+    border-radius: 0.25em;
+    padding: 0.25em 1em;
+    margin: 1em 0;
+    font-weight:800;
+
+    &:hover {
+      color: $lblue;
+      background-color: $orange;
+    }
+  }
+}
