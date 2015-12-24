@@ -33,7 +33,7 @@
     </div>
 
     <div>
-      {!! Form::Submit('Reset Password',array('class' => 'button'))!!}
+      {!! Form::Submit('Register',array('class' => 'button'))!!}
     </div>
   {!! Form::close() !!}
 </div>

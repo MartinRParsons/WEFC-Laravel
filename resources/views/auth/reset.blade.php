@@ -10,7 +10,8 @@
 
 <h1>Reset Password</h1>
 <div class="form-container">
-  {!! Form::open() !!}
+  {!! Form::open(['url'=>'/password/reset']) !!}
+   <input type="hidden" name="token" value="{{ $token }}">
     @if (count($errors) > 0)
         <ul>
             @foreach ($errors->all() as $error)
