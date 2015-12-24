@@ -3,7 +3,7 @@
 // Primary Navigation routes...
 Route::get('/', 'AboutController@getHome')->name('home');
 Route::get('/home', 'AboutController@getHome');
-Route::get('/friday', 'AboutController@getFridayClub')->name('fridayClub');
+Route::get('/clubs', 'AboutController@getClubs')->name('clubs');
 Route::get('/about', 'AboutController@getAbout')->name('about');
 Route::get('/meetings', 'AboutController@getMeetings')->name('meetings');
 Route::get('/contact', 'AboutController@getContact')->name('contact');

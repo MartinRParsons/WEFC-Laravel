@@ -17,9 +17,9 @@ class AboutController extends Controller
         return view('About');
     }
 
-    public function getFridayClub()
+    public function getClubs()
     {
-        return view('FridayClub');
+        return view('Clubs');
     }
 
     public function getMeetings()
