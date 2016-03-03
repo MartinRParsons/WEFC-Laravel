@@ -424,6 +424,22 @@ a {
 ul {
   list-style: none; }
 
+blockquote {
+  background-color: rgba(0, 159, 227, 0.1);
+  padding: 0.5rem;
+  margin: 1.5rem auto;
+  max-width: 75%;
+  border-radius: 0.25rem; }
+  blockquote .BibleVerse {
+    font-style: italic;
+    quotes: "\201C" "\201D" "\2018" "\2019";
+    text-align: center;
+    color: #009640; }
+  blockquote .BibleReference {
+    text-align: right;
+    font-weight: 800;
+    color: #009640; }
+
 .form-container {
   border: 1px solid #009FE3;
   border-radius: 0.5rem;

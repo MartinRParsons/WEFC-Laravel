@@ -86,3 +86,22 @@ a{
 ul{
   list-style:none;
 }
+
+blockquote{
+  background-color: rgba($lblue, 0.1);
+  padding: 0.5rem;
+  margin: 1.5rem auto;
+  max-width: 75%;
+  border-radius: 0.25rem;
+  .BibleVerse{
+    font-style: italic;
+    quotes: "\201C" "\201D" "\2018" "\2019";
+    text-align: center;
+    color: $green;
+  }
+  .BibleReference{
+    text-align: right;
+    font-weight: 800;
+    color: $green;
+  }
+}
