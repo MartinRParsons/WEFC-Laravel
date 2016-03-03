@@ -21,7 +21,7 @@ html{
 
 h1,h2,h3,h4,h5,h6{
 //  color: $green;
-  margin: .75em 0;
+  margin: .25rem 0;
   font-weight: 800;
 }
 
@@ -32,26 +32,26 @@ h1{
 
 h2{
   font-size: 1.75rem;
-  color: $blue;}
+  color: $green;}
 
 h3{
   font-size: 1.5rem;
-  color: $green;
+  color: $lblue;
 }
 
 h4{
-  font-size: 1.35rem;
-  color:$lblue;
+  font-size: 1.25rem;
+  color:$blue;
 }
 
 h5{
-  font-size: 1.25rem;
-  color: $lblue;
+  font-size: 1.15rem;
+  color: $blue;
 }
 
 h6{
-  font-size: 1.15rem;
-  color: $lblue;
+  font-size: 1rem;
+  color: $blue;
 }
 
 p{

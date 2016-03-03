@@ -1,0 +1,17 @@
+hr {
+  border: 0;   /* in order to override TWBS stylesheet */
+  height: .25rem;
+  margin: 2rem 0;
+  background: linear-gradient(to right,
+  rgba($green,1) 0%,
+  rgba($green,1) 20%,
+  rgba($blue,1) 20%,
+  rgba($blue,1) 40%,
+  rgba($magenta,1) 40%,
+  rgba($magenta,1) 60%,
+  rgba($lblue,1) 60%,
+  rgba($lblue,1) 80%,
+  rgba($orange,1) 80%,
+  rgba($orange,1) 100%
+  ); /* W3C */
+}

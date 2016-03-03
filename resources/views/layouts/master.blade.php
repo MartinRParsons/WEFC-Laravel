@@ -15,7 +15,12 @@
             <div class = "content-container">
                 @yield('content')
             </div>
-            @include('includes/_footer')
+            <div class = "sidebar-container">
+                @include('includes/_MailChimpForm')
+            </div>
+            <div class="footer-container">
+                @include('includes/_footer')
+            </div>
         </div>
     </body>
 </html>

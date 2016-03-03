@@ -35,4 +35,32 @@ class AboutController extends Controller
     {
         return view('Typography');
     }
+    public function getLadiesMeeting()
+    {
+        return view('LadiesMeeting');
+    }
+    public function getBibleStudy()
+    {
+        return view('BibleStudy');
+    }
+    public function getSundayServices()
+    {
+        return view('SundayServices');
+    }
+    public function getCoffeeMorning()
+    {
+        return view('CoffeeMorning');
+    }
+    public function getWednesdayClub()
+    {
+        return view('WednesdayClub');
+    }
+    public function getFridayClub()
+    {
+        return view('FridayClub');
+    }
+    public function getSPARK()
+    {
+        return Redirect('http://sparkinthepark.org.uk');
+    }
   }

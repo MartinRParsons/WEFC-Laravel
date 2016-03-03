@@ -4,6 +4,8 @@
 @import "colours";
 @import "typography";
 @import "forms";
+@import "modules/MailChimp";
+@import "bordersAndLines";
 
 
 .spacer{
@@ -31,12 +33,23 @@ body {
 }
 
 .content-container{
-	margin: 0 1.25rem;
+	margin: 1rem 1.25rem;
 	min-height: 75vh;
+	width: calc(80% - 2.6rem);
+	display: inline-block;
+	float:left;
+}
+.sidebar-container{
+		margin: 1rem 1.25rem;
+		min-height: 75vh;
+		width: calc(20% - 2.6rem);
+		display: inline-block;
+		// background-color: $lblue;
 }
 .container{
 	background-color:  rgba(white, 0.4);
 	max-width: 960px;
+	height: auto;
 	margin: 0 auto;
 }
 
@@ -62,7 +75,7 @@ body {
 .FIEC-logo{
 	flex-basis: 15%;
 	padding: 0.5rem;
-	align-self: flex-start;
+	align-self: flex-end;
   img{
  	 max-width: 100%;
   }
@@ -90,7 +103,41 @@ body {
 	}
 }
 .footer-container{
-	display: flex;
+	clear:both;
+	display: block;
+	padding: 0;
+	height: 8rem;
+	width: 100%;
+	flex-grow: 1 ;
+	background: linear-gradient(to right,
+  rgba($green,0.5) 0%,
+  rgba($green,0.5) 20%,
+  rgba($blue,0.5) 20%,
+  rgba($blue,0.5) 40%,
+  rgba($magenta,0.5) 40%,
+  rgba($magenta,0.5) 60%,
+  rgba($lblue,0.5) 60%,
+  rgba($lblue,0.5) 80%,
+  rgba($orange,0.5) 80%,
+  rgba($orange,0.5) 100%
+  );
+	h3{
+		margin: 0 auto;
+		text-align: center;
+		padding: 2rem 0 1rem 0;
+		color: white;
+	}
+	p{
+		margin: 0 auto;
+		text-align: center;
+		color: white;
+	}
+	a{
+			color: white;
+			&:hover{
+				color: $orange;
+			}
+	}
 }
 
 .footer-colours{
@@ -98,29 +145,10 @@ body {
 	height: 8rem;
 	flex-grow: 1 ;
 	border-top: solid 0.25em;
+}
 
-//	@media (max-width: 320px){
-//	height: 10vh;
-//	}
-
-}
-.bg-magenta{
-	background-color: rgba($magenta,0.5);
-	border-top-color: $magenta;
-}
-.bg-blue{
-	background-color: rgba($blue,0.5);
-	border-top-color: rgba($blue,0.5);
-}
-.bg-lblue{
-	background-color: rgba($lblue,0.5);
-	border-top-color: $lblue;
-}
-.bg-green{
-	background-color: rgba($green,0.5);
-	border-top-color: $green;
-}
-.bg-orange{
-	background-color: rgba($orange,0.5);
-	border-top-color: $orange;
+img{
+	max-width: 50%;
+	float: left;
+	margin: 0 0.75rem 0.75rem 0;
 }

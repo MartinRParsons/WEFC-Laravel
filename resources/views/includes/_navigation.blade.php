@@ -17,7 +17,7 @@
 	<!-- <a href="meetings" class="nav-link">Meetings</a> -->
 	{!! Html::link('/meetings', 'Meetings',['class'=>'nav-link']) !!}</p>
 	<!-- <a href="/friday" class="nav-link">Clubs</a> -->
-	{!! Html::link('/clubs', 'Clubs',['class'=>'nav-link']) !!}</p>
+	<!-- {!! Html::link('/clubs', 'Clubs',['class'=>'nav-link']) !!}</p> -->
 	<!-- <a href="/contact" class="nav-link">Contact Us</a> -->
 	{!! Html::link('/contact', 'Contact Us',['class'=>'nav-link']) !!}</p>
 </div>

@@ -1,0 +1,17 @@
+#mc_embed_signup{
+  padding: 0;
+  border: none;
+  h2{
+    font-size: 1rem;
+  }
+  label, input, .indicates-required{
+    font-size: 0.65rem;
+  }
+  label{
+    display:none;
+  }
+  .button{
+    display: block;
+    margin: 1rem auto;
+  }
+}
