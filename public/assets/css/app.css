@@ -445,7 +445,8 @@ ul {
     border: none;
     padding: 0.25rem;
     display: inline-block;
-    width: calc(100% - 0.5rem); }
+    width: calc(100% - 0.5rem);
+    border-radius: 0.25rem; }
   .form-container .button {
     background-color: #009FE3;
     color: #F9B233;

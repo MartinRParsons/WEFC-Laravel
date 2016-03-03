@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-       @include('includes/admin')
+       <!-- @include('includes/admin') -->
          <div class="container">
             @include('includes/_navigation')
             <div class = "content-container">
