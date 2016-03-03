@@ -9,4 +9,4 @@
 
 
 <h3>Welling Evangelical Free Church</h3>
-<p>{!! Html::link('/', 'Home') !!} | {!! Html::link('/about', 'About') !!} | {!! Html::link('/meetings', 'Meetings') !!} | {!! Html::link('/contact', 'Contact Us') !!}</p>
+<p>{!! Html::link('/', 'Home') !!} <span>|</span> {!! Html::link('/about', 'About') !!} <span>|</span> {!! Html::link('/meetings', 'Meetings') !!} <span>|</span> {!! Html::link('/contact', 'Contact Us') !!}</p>
