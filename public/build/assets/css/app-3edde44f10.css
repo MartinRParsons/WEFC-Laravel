@@ -534,17 +534,13 @@ body {
   justify-content: space-between; }
 
 .header-logo {
-  -webkit-flex-basis: 15%;
-  -ms-flex-preferred-size: 15%;
-  flex-basis: 15%;
+  width: 15%;
   padding: 0.5rem; }
   .header-logo img {
     max-width: 100%; }
 
 .FIEC-logo {
-  -webkit-flex-basis: 15%;
-  -ms-flex-preferred-size: 15%;
-  flex-basis: 15%;
+  width: 15%;
   padding: 0.5rem;
   -webkit-align-self: flex-end;
   -ms-flex-item-align: end;
