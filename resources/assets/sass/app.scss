@@ -11,7 +11,6 @@
 .spacer{
 	min-height: 75vh;
 }
-
 body {
 	background-color:  rgba($lblue, 0.25);
 }
@@ -34,17 +33,21 @@ body {
 
 .content-container{
 	margin: 1rem 1.25rem;
-	min-height: 75vh;
 	width: calc(80% - 2.6rem);
 	display: inline-block;
 	float:left;
+	@media(max-width: 375px){
+		width: auto;
+	}
 }
 .sidebar-container{
 		margin: 1rem 1.25rem;
-		min-height: 75vh;
 		width: calc(20% - 2.6rem);
 		display: inline-block;
 		// background-color: $lblue;
+		@media(max-width: 375px){
+			width: auto;
+	}
 }
 .container{
 	background-color:  rgba(white, 0.4);

@@ -9,7 +9,7 @@
 @section('content')
 
 
-	<div class="spacer">
+	<div>
 		<h1>Welcome to WEFC</h1>
 		<img src="images/WEFC Church.jpg" alt="Picture of the church building" />
 		<p>Welling Evangelical Free Church is a small, friendly community with a heart to serve the people of Welling, and to share the Gospel.</p>
