@@ -480,9 +480,9 @@ blockquote {
   padding: 0;
   border: none; }
   #mc_embed_signup h2 {
-    font-size: 1rem; }
+    font-size: 1.25rem; }
   #mc_embed_signup label, #mc_embed_signup input, #mc_embed_signup .indicates-required {
-    font-size: 0.65rem; }
+    font-size: 1rem; }
   #mc_embed_signup label {
     display: none; }
   #mc_embed_signup .button {
