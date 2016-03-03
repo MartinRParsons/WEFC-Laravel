@@ -482,7 +482,7 @@ hr {
   /* W3C */ }
 
 .spacer {
-  min-height: 75vh; }
+  min-height: 80vh; }
 
 body {
   background-color: rgba(0, 159, 227, 0.25); }
@@ -522,6 +522,7 @@ body {
   background-color: rgba(255, 255, 255, 0.4);
   max-width: 960px;
   height: auto;
+  min-height: 100vh;
   margin: 0 auto; }
 
 .nav-banner {

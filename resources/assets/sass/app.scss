@@ -9,7 +9,7 @@
 
 
 .spacer{
-	min-height: 75vh;
+	min-height: 80vh;
 }
 body {
 	background-color:  rgba($lblue, 0.25);
@@ -53,6 +53,7 @@ body {
 	background-color:  rgba(white, 0.4);
 	max-width: 960px;
 	height: auto;
+	min-height: 100vh;
 	margin: 0 auto;
 }
 
