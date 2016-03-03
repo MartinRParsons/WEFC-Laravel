@@ -33,7 +33,7 @@ body {
 
 .content-container{
 	margin: 1rem 1.25rem;
-	width: calc(80% - 2.6rem);
+	width: calc(65% - 2.6rem);
 	display: inline-block;
 	float:left;
 	@media(max-width: 375px){
@@ -42,7 +42,7 @@ body {
 }
 .sidebar-container{
 		margin: 1rem 1.25rem;
-		width: calc(20% - 2.6rem);
+		width: calc(35% - 2.6rem);
 		display: inline-block;
 		// background-color: $lblue;
 		@media(max-width: 375px){
