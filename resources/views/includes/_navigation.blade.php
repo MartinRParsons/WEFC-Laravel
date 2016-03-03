@@ -1,12 +1,12 @@
 <div class="header-banner">
 	<div class="header-logo">
-		<a href = "/"><img src="/images/WEFClogo.png"></a>
+		<a href = "/"><img src="/images/WEFClogoSmall.png"></a>
 	</div>
 	<div class="banner-text">
 			Welling Evangelical </br> Free Church
 	</div>
 	<div class="FIEC-logo">
-		<a href = "https://fiec.org.uk/"><img src="/images/FIEClogo.png"></a>
+		<a href = "https://fiec.org.uk/"><img src="/images/FIEClogoSmall.png"></a>
 	</div>
 </div>
 <div class="navbar">

@@ -1,4 +1,4 @@
-<h4>Upcoming events</h4>
+<!-- <h4>Upcoming events</h4>
 <ul>
   <li>
     <h5>Sunday morning service</h5>
@@ -28,4 +28,4 @@
     <h6>Friday club</h6>
     <p>26th February 19:30</p>
   </li>
-</ul>
+</ul> -->
