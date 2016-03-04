@@ -26,6 +26,12 @@
     display: inline-block;
     width: calc(100% - 0.5rem);
     border-radius: 0.25rem;
+    @media(max-width: 375px){
+      margin: .5rem 0;
+      width: calc(100% - 1rem);
+      border-radius: 0.5rem;
+      padding: 0.5rem;
+    }
   }
 
   .button {

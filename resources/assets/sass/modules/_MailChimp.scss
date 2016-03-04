@@ -3,17 +3,20 @@
   border: none;
   @media(max-width: 375px){
     width: 80%;
-    margin: 0 auto;
+    margin: 2rem auto;
   }
   h2{
     font-size: 1.25rem;
 	   @media(max-width: 375px){
-       font-size: 1.75rem;
+       font-size: 2rem;
        text-align: center;
      }
   }
   label, input, .indicates-required{
     font-size: 1rem;
+    @media(max-width: 375px){
+      font-size: 1.5rem;
+    }
   }
   label{
     display:none;
@@ -21,5 +24,8 @@
   .button{
     display: block;
     margin: 1rem auto;
+    @media(max-width: 375px){
+      font-size: 2rem;
+    }
   }
 }

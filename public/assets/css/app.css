@@ -374,30 +374,52 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 2rem;
   color: #F9B233; }
+  @media (max-width: 375px) {
+    h1 {
+      font-size: 4rem;
+      text-align: center; } }
 
 h2 {
   font-size: 1.75rem;
   color: #009640; }
 
+@media (max-width: 375px) {
+  font-size: 3.5rem; }
+
 h3 {
   font-size: 1.5rem;
   color: #009FE3; }
+  @media (max-width: 375px) {
+    h3 {
+      font-size: 3rem; } }
 
 h4 {
   font-size: 1.25rem;
   color: #35398E; }
+  @media (max-width: 375px) {
+    h4 {
+      font-size: 2.5rem; } }
 
 h5 {
   font-size: 1.15rem;
-  color: #35398E; }
+  color: #009640; }
+  @media (max-width: 375px) {
+    h5 {
+      font-size: 2.3rem; } }
 
 h6 {
   font-size: 1rem;
-  color: #35398E; }
+  color: #009FE3; }
+  @media (max-width: 375px) {
+    h6 {
+      font-size: 2rem; } }
 
 p {
   margin: 0.5em 0;
   font-size: 1rem; }
+  @media (max-width: 375px) {
+    p {
+      font-size: 2rem; } }
 
 a {
   color: #E6007E;
@@ -422,7 +444,8 @@ a {
   max-width: 60%; }
 
 ul {
-  list-style: none; }
+  list-style: none;
+  padding: 0; }
 
 blockquote {
   background-color: rgba(0, 159, 227, 0.1);
@@ -463,6 +486,12 @@ blockquote {
     display: inline-block;
     width: calc(100% - 0.5rem);
     border-radius: 0.25rem; }
+    @media (max-width: 375px) {
+      .form-container input {
+        margin: .5rem 0;
+        width: calc(100% - 1rem);
+        border-radius: 0.5rem;
+        padding: 0.5rem; } }
   .form-container .button {
     background-color: #009FE3;
     color: #F9B233;
@@ -482,20 +511,26 @@ blockquote {
   @media (max-width: 375px) {
     #mc_embed_signup {
       width: 80%;
-      margin: 0 auto; } }
+      margin: 2rem auto; } }
   #mc_embed_signup h2 {
     font-size: 1.25rem; }
     @media (max-width: 375px) {
       #mc_embed_signup h2 {
-        font-size: 1.75rem;
+        font-size: 2rem;
         text-align: center; } }
   #mc_embed_signup label, #mc_embed_signup input, #mc_embed_signup .indicates-required {
     font-size: 1rem; }
+    @media (max-width: 375px) {
+      #mc_embed_signup label, #mc_embed_signup input, #mc_embed_signup .indicates-required {
+        font-size: 1.5rem; } }
   #mc_embed_signup label {
     display: none; }
   #mc_embed_signup .button {
     display: block;
     margin: 1rem auto; }
+    @media (max-width: 375px) {
+      #mc_embed_signup .button {
+        font-size: 2rem; } }
 
 hr {
   border: 0;
@@ -532,7 +567,8 @@ body {
   float: left; }
   @media (max-width: 375px) {
     .content-container {
-      width: auto; } }
+      width: calc(100% - 5rem);
+      margin: 2rem 2.5rem; } }
 
 .sidebar-container {
   margin: 1rem 1.25rem;
@@ -542,6 +578,21 @@ body {
     .sidebar-container {
       width: 100%;
       margin: 0; } }
+  .sidebar-container hr {
+    display: none;
+    height: 0.5rem; }
+    @media (max-width: 375px) {
+      .sidebar-container hr {
+        display: block; } }
+
+.events-container {
+  padding: calc(1.25rem - 1px);
+  width: calc(50rem -10px);
+  box-sizing: border-box; }
+  @media (max-width: 375px) {
+    .events-container {
+      width: 80%;
+      margin: 0 auto; } }
 
 .container {
   background-color: rgba(255, 255, 255, 0.4);
@@ -607,7 +658,7 @@ body {
   clear: both;
   display: block;
   padding: 0;
-  height: 8rem;
+  min-height: 8rem;
   width: 100%;
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
@@ -620,6 +671,7 @@ body {
     color: white; }
   .footer-container p {
     margin: 0 auto;
+    padding-bottom: 2rem;
     text-align: center;
     color: white; }
   .footer-container a {
@@ -641,5 +693,11 @@ img {
   max-width: 50%;
   float: left;
   margin: 0 0.75rem 0.75rem 0; }
+  @media (max-width: 375px) {
+    img {
+      max-width: 90%;
+      margin: 2rem auto;
+      display: block;
+      float: none; } }
 
 /*# sourceMappingURL=app.css.map */
