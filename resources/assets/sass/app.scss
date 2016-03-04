@@ -46,7 +46,8 @@ body {
 		display: inline-block;
 		// background-color: $lblue;
 		@media(max-width: 375px){
-			width: auto;
+			width: 100%;
+			margin: 0;
 	}
 }
 .container{

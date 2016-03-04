@@ -1,8 +1,16 @@
 #mc_embed_signup{
   padding: 0;
   border: none;
+  @media(max-width: 375px){
+    width: 80%;
+    margin: 0 auto;
+  }
   h2{
     font-size: 1.25rem;
+	   @media(max-width: 375px){
+       font-size: 1.75rem;
+       text-align: center;
+     }
   }
   label, input, .indicates-required{
     font-size: 1rem;

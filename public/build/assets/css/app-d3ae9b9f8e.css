@@ -479,8 +479,16 @@ blockquote {
 #mc_embed_signup {
   padding: 0;
   border: none; }
+  @media (max-width: 375px) {
+    #mc_embed_signup {
+      width: 80%;
+      margin: 0 auto; } }
   #mc_embed_signup h2 {
     font-size: 1.25rem; }
+    @media (max-width: 375px) {
+      #mc_embed_signup h2 {
+        font-size: 1.75rem;
+        text-align: center; } }
   #mc_embed_signup label, #mc_embed_signup input, #mc_embed_signup .indicates-required {
     font-size: 1rem; }
   #mc_embed_signup label {
@@ -532,7 +540,8 @@ body {
   display: inline-block; }
   @media (max-width: 375px) {
     .sidebar-container {
-      width: auto; } }
+      width: 100%;
+      margin: 0; } }
 
 .container {
   background-color: rgba(255, 255, 255, 0.4);
