@@ -704,4 +704,7 @@ img {
       display: block;
       float: none; } }
 
+.googleMap {
+  display: none; }
+
 /*# sourceMappingURL=app.css.map */
