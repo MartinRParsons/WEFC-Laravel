@@ -19,7 +19,7 @@
       DA16 1PQ</br>
     </p>
     <p>
-      Email - <a href="mailto:info@wefc.church">info@wefc.church</a>
+      Email - <a href="mailto:info@wefc.church">info@wefc.church</a><br>
 			Phone - 07783 334014
     </p>
 	</div>
