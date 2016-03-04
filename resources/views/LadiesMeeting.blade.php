@@ -9,7 +9,7 @@
 @section('content')
 <div class="spacer">
   <h1>Ladies Meeting</h1>
-  <p>Our meeting is open to ladies of all ages, meeting usually in the church kitchen from 2-3pm each Thursday afternoon during school term time. </p>
+  <p>Our meeting is open to ladies of all ages, meeting usually in the church kitchen for an hour from 14:00 each Thursday afternoon during school term time. </p>
   <p>Our aim is to encourage each other, support each other when life gets tough (and it does at times), to share what the Bible teaches in a way that relates to us so we can see how God understands and can give direction and help. </p>
   <p>Prayer is also important to us, as we pray for each other and situations both close and far from home. All are free to pray or join in silently.</p>
   <p>We also like singing and praising God, it lifts up our hearts. You don't have to be good at it, some of us aren't!</p>

@@ -120,6 +120,9 @@ body {
 	text-decoration: none;
 	font-size: 1.25rem;
 	font-weight: 800;
+	@media(max-width: 375px){
+		font-size: 2.5rem;
+	}
 
 	&:hover{
 		background-color: $orange;
@@ -129,6 +132,7 @@ body {
 .footer-container{
 	clear:both;
 	display: block;
+	margin-top: 2rem;
 	padding: 0;
 	min-height: 8rem;
 	width: 100%;

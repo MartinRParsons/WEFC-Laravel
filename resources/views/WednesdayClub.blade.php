@@ -12,7 +12,7 @@
 
 <h1>Wednesday Club</h1>
 <h2>Who?</h2>
-<p>Wednesday club is for children ages 6-11. We meet every week during term time in the church hall, enter via the side entrance in Balliol Road. If you're interested in bringing your children please do pop in on a Wednesday evening and speak to one of the leaders. Children are registered and there is a 50p charge each week to attend Wednesday club.</p>
+<p>Wednesday club is for children ages 6-11. We meet every week during term time in the church hall, enter via the side entrance in Balliol Road. If you're interested in bringing your children please do pop in on a Wednesday evening between 18:00 and 19:30 and speak to one of the leaders. Children are registered and there is a 50p charge each week to attend Wednesday club.</p>
 <h2>What?</h2>
 <h3>Games</h3>
 <p>We offer a wide variety of games and activities for the children. We play typical sports games, such as football, hockey and basketball etc. We also have equipment for more specialist games; for example parachute games and obstacle courses.</p>

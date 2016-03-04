@@ -16,8 +16,8 @@
                 @yield('content')
             </div>
             <div class = "sidebar-container">
-                <hr>
-                @include('includes/_sidebar')
+                <!-- <hr>
+                @include('includes/_sidebar') -->
                 <hr>
                 @include('includes/_MailChimpForm')
             </div>

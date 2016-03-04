@@ -368,7 +368,7 @@ html {
   font-family: "jaf-bernino-sans", "sans-serif"; }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: .25rem 0;
+  margin: .25em 0;
   font-weight: 800; }
 
 h1 {
@@ -650,6 +650,9 @@ body {
   text-decoration: none;
   font-size: 1.25rem;
   font-weight: 800; }
+  @media (max-width: 375px) {
+    .nav-link {
+      font-size: 2.5rem; } }
   .nav-link:hover {
     background-color: #F9B233;
     color: #009FE3; }
@@ -657,6 +660,7 @@ body {
 .footer-container {
   clear: both;
   display: block;
+  margin-top: 2rem;
   padding: 0;
   min-height: 8rem;
   width: 100%;

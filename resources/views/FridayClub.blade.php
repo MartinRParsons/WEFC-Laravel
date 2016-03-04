@@ -12,7 +12,7 @@
 
 <h1>Friday Club</h1>
 <h2>Who?</h2>
-<p>Friday club is for young people attending secondary school. We meet every week during term time in the church hall, enter via the side entrace in Balliol Road. If you're interested in coming, or brinign your children please do pop in on a Friday evening and speak to one of the leaders. Children are registered and there is a 50p charge each week to attend Friday club.</p>
+<p>Friday club is for young people attending secondary school. We meet every week during term time in the church hall, enter via the side entrace in Balliol Road. If you're interested in coming, or bringing your children please do pop in on a Friday evening between 19:30 and 21:00 and speak to one of the leaders. Children are registered and there is a 50p charge each week to attend Friday club.</p>
 <h2>What?</h2>
 <h3>Games</h3>
 <p>We play typical sports games such as football, hockey and basketball. As well as more specialist games, for example obstacle courses and nerf target games.</p>

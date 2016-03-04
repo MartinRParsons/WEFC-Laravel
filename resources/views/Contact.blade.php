@@ -20,6 +20,7 @@
     </p>
     <p>
       Email - <a href="mailto:info@wefc.church">info@wefc.church</a>
+			Phone - 07783 334014
     </p>
 	</div>
 @endsection

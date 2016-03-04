@@ -9,7 +9,7 @@ class AboutController extends Controller
 {
     public function getHome()
     {
-        return view('home');
+        return view('Home');
     }
 
     public function getAbout()
