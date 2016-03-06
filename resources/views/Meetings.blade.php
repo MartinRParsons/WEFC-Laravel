@@ -43,6 +43,6 @@
 <h2>Friday</h2>
   <h3>Friday club - 19:30</h3>
   <p>For those of you at secondary school Friday club is a great place to socialise and have fun outside of school. Activities include games, challenges and discussions in addition to outings to places such as Jump Giants.
-  {!! Html::linkRoute('WednesdayClub', 'Read more') !!}</p>
+  {!! Html::linkRoute('FridayClub', 'Read more') !!}</p>
 <!-- <h2>Saturday</h2> -->
 @endsection
