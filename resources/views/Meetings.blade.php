@@ -31,7 +31,7 @@
   {!! Html::linkRoute('BibleStudy', 'Read more') !!}</p>
 <h2>Wednesday</h2>
   <h3>Wednesday club - 18:00</h3>
-  <p>If your aged 6-11 then Wednesday club is the place for you. With games, crafts, stories and quizzes there is something for everyone.
+  <p>If you're aged 6-11 then Wednesday club is the place for you. With games, crafts, stories and quizzes there is something for everyone.
   {!! Html::linkRoute('WednesdayClub', 'Read more') !!}</p>
 <h2>Thursday</h2>
   <h3>Coffee morning - 10:30</h3>

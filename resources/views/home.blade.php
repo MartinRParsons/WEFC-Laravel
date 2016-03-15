@@ -1,6 +1,9 @@
 @extends('layouts.master')
 
 @section('title', 'Home')
+@section('description',"WEFC is a small, friendly community church with a heart to serve the people of Welling, and to share the Gospel.")
+@section('TwitterImage', "images/WEFC Church.jpg")
+@section('FbImage',"images/WEFC Church.jpg")
 
 @section('sidebar')
 

@@ -18,5 +18,11 @@ elixir(function(mix) {
 });
 
 elixir(function(mix) {
+    mix.sass([
+        'modules/CookieConsent/light-top.scss'
+    ], 'public/assets/css/CookieConsent.css');
+});
+
+elixir(function(mix) {
     mix.version('assets/css/app.css');
 });

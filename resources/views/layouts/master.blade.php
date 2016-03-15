@@ -7,6 +7,10 @@
         <script>try{Typekit.load({ async: true });}catch(e){}</script>
         @include('includes/_favicons')
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        @include('includes/PageMetaData')
+        @include('includes/_CookieConsent')
+        @include('includes/GoogleAnalytics')
     </head>
     <body>
        <!-- @include('includes/admin') -->
