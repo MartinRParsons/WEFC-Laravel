@@ -3,6 +3,7 @@
   position: relative; }
 
 .cc_container {
+  max-width: 960px;
   margin: 0 auto; }
   .cc_container .cc_btn {
     cursor: pointer;
