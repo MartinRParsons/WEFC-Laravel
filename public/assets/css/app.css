@@ -352,6 +352,20 @@ td,
 th {
   padding: 0; }
 
+.maps-container {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+  margin: 20px auto; }
+
+.maps-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important; }
+
 :root {
   font-size: 16px; }
   @media (max-width: 750px) {
