@@ -1,6 +1,6 @@
 <div class="header-banner">
 	<div class="header-logo">
-		<a href = "/"><img src="/images/WEFClogoSmall.png"></a>
+		<a href = "/"><img src="/images/WEFClogo144x180.png"></a>
 	</div>
 	<div class="banner-text">
 			Welling Evangelical </br> Free Church
