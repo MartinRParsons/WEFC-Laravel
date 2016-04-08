@@ -1,6 +1,9 @@
 @extends('layouts.master')
 
 @section('title', 'Sunday Services')
+@section('description',"WEFC has Sunday services at 11:00 and 18:30 every Sunday, with worship, prayer, bible teaching and fellowship.")
+@section('TwitterImage', "images/WEFC_Church.jpg")
+@section('FbImage',"images/WEFC_Church.jpg")
 
 @section('sidebar')
 

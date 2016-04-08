@@ -1,6 +1,9 @@
 @extends('layouts.master')
 
 @section('title', 'Coffee Morning')
+@section('description',"WEFC hosts a coffee morning every thursday, pop in for a drink and chat.")
+@section('TwitterImage', "images/WEFC_Church.jpg")
+@section('FbImage',"images/WEFC_Church.jpg")
 
 @section('sidebar')
 

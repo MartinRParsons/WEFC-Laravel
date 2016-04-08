@@ -1,6 +1,9 @@
 @extends('layouts.master')
 
 @section('title', 'Bible Study')
+@section('description',"WEFC holdss a bible study and prayer meeting every Tuesday, come and join us for prayer, fellowship and bible teaching.")
+@section('TwitterImage', "images/WEFC_Church.jpg")
+@section('FbImage',"images/WEFC_Church.jpg")
 
 @section('sidebar')
 

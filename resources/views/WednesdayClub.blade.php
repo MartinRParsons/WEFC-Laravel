@@ -1,6 +1,9 @@
 @extends('layouts.master')
 
 @section('title', 'Wednesday Club')
+@section('description',"WEFC runs a youth group for those aged 6-11, this takes place every Wednesday during term time with fun activities and games.")
+@section('TwitterImage', "images/WEFC_Church.jpg")
+@section('FbImage',"images/WEFC_Church.jpg")
 
 @section('sidebar')
 
