@@ -12,6 +12,7 @@
 @section('content')
 <div class="spacer">
   <h1>Coffee Morning</h1>
+  <em>Due to ongoing refurbishment to the church there is no coffee morning at the moment.</em>
   <p>Every Thursday during term time we host a coffee morning from 10:30 at WEFC serving hot and cold drinks and biscuits.</p>
   <p>With tables to chat or play games, as well as a soft play area for under 3's there is something for everyone.</p>
   <p>If you've ever wanted an opportunity to ask us about what we beleive as Christians at WEFC then this is a great place to have an informal chat with some of our members.</p>

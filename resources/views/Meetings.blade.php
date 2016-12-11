@@ -14,11 +14,13 @@
 <h2>Sunday</h2>
   <div class = "Meeting">
     <h3>Morning service - 11:00</h3>
+    <em>Due to ongoing refurbishment to the church we are currently meeting an alternative location, please phone us for details if you wish to join us</em>
     <p>We meet every Sunday morning to share in a time of worship, prayer and studying God's word. Open to all.
     {!! Html::linkRoute('SundayServices', 'Read more') !!}</p>
   </div>
   <div class = "Meeting">
     <h3>Evening service - 18:30</h3>
+    <em>Due to ongoing refurbishment to the church we are currently meeting an alternative location, please phone us for details if you wish to join us</em>
     <p>Our evening services are more informal, with time to discuss the message that has been given over tea and coffee. Open to all.
     {!! Html::linkRoute('SundayServices', 'Read more') !!}</p>
   </div>
@@ -36,10 +38,13 @@
   <h3>Wednesday club - 18:00</h3>
   <p>If you're aged 6-11 then Wednesday club is the place for you. With games, crafts, stories and quizzes there is something for everyone.
   {!! Html::linkRoute('WednesdayClub', 'Read more') !!}</p>
+
 <h2>Thursday</h2>
+<!--
   <h3>Coffee morning - 10:30</h3>
     <p>Pop in for coffee any Thursday morning. Whether you want to chat, play games or have questions about the Christian faith this is place to come.
     {!! Html::linkRoute('CoffeeMorning', 'Read more') !!}</p>
+-->
   <h3>Ladies meeting - 14:00</h3>
     <p>Open to women of all ages. This is a time for support, encouragement and fellowship. With a range of activities and outings this is a great opportunity to spend time with other ladies.
     {!! Html::linkRoute('LadiesMeeting', 'Read more') !!}</p>
