@@ -13,7 +13,6 @@
 
 	<div class="spacer">
 		<h1>Welcome to WEFC</h1>
-		<div><img style ="width:100%; max-width:100%" src="images/CarolService2016.png" alt="carol service - Sunday 18 December 18:30"></div>
 		<img src="images/WEFC_Church.jpg" alt="Picture of the church building" />
 		<p>Welling Evangelical Free Church is a small, friendly community with a heart to serve the people of Welling, and to share the Gospel.</p>
 		<p>If you're looking for a church in Welling, or want to know more about Christianity come and join us at one of our {!! Html::linkRoute('meetings', 'regular services, coffee morning or other meetings') !!}. There is something for everyone and they are a great place to meet us, find out who we are and what we believe.</p>
